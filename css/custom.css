@@ -1,0 +1,18 @@
+/* Shared custom styles for the Tailwind assignment pages */
+body {
+    font-family: sans-serif;
+}
+
+.soft-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.soft-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.10);
+}
+
+.photo-frame {
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 10px 24px rgba(148, 163, 184, 0.18);
+}
