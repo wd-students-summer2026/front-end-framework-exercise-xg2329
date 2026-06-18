@@ -1,0 +1,18 @@
+/* Tablet layout: two columns, then one full row */
+/* 481px and 960px */
+inclusive*/
+.container {
+    max-width: 960px;
+    padding: 18px;
+}
+
+.column1,
+.column2 {
+    width: calc((100% - 20px) / 2);
+}
+
+.column3,
+.site-header,
+.site-footer {
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+/* Mobile layout: one column */
+/*480px or less */
+.container {
+    max-width: 100%;
+    padding: 12px;
+}
+
+.site-header,
+.site-footer,
+.column1,
+.column2,
+.column3 {
+    width: 100%;
+}
+
+.page-grid {
+    display: block;
+}
+
+.column1,
+.column2,
+.column3 {
+    margin-bottom: 16px;
+}
+
+.site-header {
+    padding: 20px;
+}
+
+.card {
+    padding: 18px;
+}
